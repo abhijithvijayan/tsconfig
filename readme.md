@@ -1,4 +1,4 @@
-# tsconfig
+# tsconfig [![npm version](https://img.shields.io/npm/v/@abhijithvijayan/tsconfig)](https://www.npmjs.com/package/@abhijithvijayan/tsconfig)
 
 > TypeScript configuration I use for my projects
 
