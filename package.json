@@ -16,6 +16,9 @@
 	"files": [
 		"tsconfig.json"
 	],
+	"scripts": {
+		"release": "npm publish --access public"
+	},
 	"keywords": [
 		"typescript",
 		"tsconfig",
