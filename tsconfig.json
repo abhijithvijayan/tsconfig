@@ -23,6 +23,7 @@
 		/* Module Resolution Options */
 		"moduleResolution": "node", // Module resolution strategy
 		"allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export.
+		"resolveJsonModule": true, // Allow importing, extracting types from and generating .json files.
 		"esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports.
 
 		/* Advanced Options */
