@@ -1,0 +1,24 @@
+{
+	"name": "@abhijithvijayan/tsconfig",
+	"version": "0.1.0",
+	"description": "TypeScript configuration I use for my projects",
+	"license": "MIT",
+	"repository": "https://github.com/abhijithvijayan/tsconfig.git",
+	"author": {
+		"name": "abhijithvijayan",
+		"email": "34790378+abhijithvijayan@users.noreply.github.com",
+		"url": "https://abhijithvijayan.in"
+	},
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"main": "tsconfig.json",
+	"files": [
+		"tsconfig.json"
+	],
+	"keywords": [
+		"typescript",
+		"tsconfig",
+		"abhijithvijayan"
+	]
+}
