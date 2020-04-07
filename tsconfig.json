@@ -5,9 +5,13 @@
 		"module": "commonjs", // Module code generation
 		"jsx": "react", // JSX code generation
 		"declaration": true, // Generates corresponding '.d.ts' file.
-		"noEmitOnError": true, // Do not emit outputs on error.
+		"noEmitOnError": true, // Do not emit outputs if any errors were reported.
+		"newLine": "lf", // Use the specified EOF sequence to be used when emitting files: lf -> unix
+		"removeComments": true, // Do not emit comments to output.
 		// "outDir": "dist", // Redirect output structure to the directory.
-		// "removeComments": true, // Do not emit comments to output.
+		// "allowJs": true, // Allow JavaScript files to be compiled.
+		// "lib": [], // List of library files to be included in the compilation.
+		// "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts).
 
 		/* Strict Type-Checking Options */
 		"strict": true, // Enable all strict type-checking options.
