@@ -1,12 +1,12 @@
 {
 	"name": "@abhijithvijayan/tsconfig",
-	"version": "1.1.2",
+	"version": "1.2.0",
 	"description": "TypeScript configuration I use for my projects",
 	"license": "MIT",
 	"repository": "https://github.com/abhijithvijayan/tsconfig.git",
 	"author": {
 		"name": "abhijithvijayan",
-		"email": "34790378+abhijithvijayan@users.noreply.github.com",
+		"email": "email@abhijithvijayan.in",
 		"url": "https://abhijithvijayan.in"
 	},
 	"engines": {
@@ -20,6 +20,7 @@
 		"release": "npm publish --access public"
 	},
 	"keywords": [
+		"shared",
 		"typescript",
 		"tsconfig",
 		"abhijithvijayan"
