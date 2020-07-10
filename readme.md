@@ -4,8 +4,8 @@
   <a href="https://www.npmjs.com/package/@abhijithvijayan/tsconfig">
     <img src="https://img.shields.io/npm/v/@abhijithvijayan/tsconfig" alt="NPM" />
   </a>
-  <a href="https://travis-ci.com/abhijithvijayan/@abhijithvijayan/tsconfig">
-    <img src="https://travis-ci.com/abhijithvijayan/@abhijithvijayan/tsconfig.svg?branch=main" alt="Travis Build" />
+  <a href="https://travis-ci.com/abhijithvijayan/tsconfig">
+    <img src="https://travis-ci.com/abhijithvijayan/tsconfig.svg?branch=main" alt="Travis Build" />
   </a>
   </a>
   <a href="https://david-dm.org/abhijithvijayan/tsconfig">
