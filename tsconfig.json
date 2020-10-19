@@ -10,7 +10,9 @@
 		"removeComments": true, // Do not emit comments to output.
 		// "outDir": "dist", // Redirect output structure to the directory.
 		// "allowJs": true, // Allow JavaScript files to be compiled.
-		// "lib": [], // List of library files to be included in the compilation.
+		"lib": [
+			"ES2020.Promise" // https://git.io/JTvvo
+		], // List of library files to be included in the compilation.
 		// "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts).
 
 		/* Strict Type-Checking Options */
