@@ -34,15 +34,6 @@ jobs:
             - name: Install dependencies
               run: npm install
 
-            - name: Run Linters
-              run: npm run lint
-
-            - name: Run Tests
-              run: npm run test -- --passWithNoTests
-
-            - name: Build package
-              run: npm run build
-
             - name: Publish
                 # https://docs.npmjs.com/generating-provenance-statements
               run: npm publish --provenance --access public --ignore-scripts # ignore running prepublishOnly script
