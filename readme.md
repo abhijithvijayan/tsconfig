@@ -7,7 +7,6 @@
   <a href="https://travis-ci.com/abhijithvijayan/tsconfig">
     <img src="https://travis-ci.com/abhijithvijayan/tsconfig.svg?branch=main" alt="Travis Build" />
   </a>
-  </a>
   <a href="https://david-dm.org/abhijithvijayan/tsconfig">
     <img src="https://img.shields.io/david/abhijithvijayan/tsconfig.svg?colorB=orange" alt="DEPENDENCIES" />
   </a>
@@ -43,7 +42,7 @@
 
 ## Installation
 
-Ensure you have [Node.js](https://nodejs.org) 10 or later installed. Then run the following:
+Ensure you have [Node.js](https://nodejs.org) 18 or later installed. Then run the following:
 
 ```js
 # via npm
