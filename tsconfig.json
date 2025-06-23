@@ -32,8 +32,7 @@
 		"noFallthroughCasesInSwitch": true, // Report errors for fallthrough cases in switch statement.
 
 		/* Module Resolution Options */
-		"moduleResolution": "node16", // Module resolution strategy
-		"moduleDetection": "force",
+		"moduleResolution": "node", // Module resolution strategy
 		"resolveJsonModule": false, // Allow importing, extracting types from and generating .json files. ESM doesn't yet support JSON modules.
 		"esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports.
 		// "types": [], // Type declaration files to be included in compilation.
