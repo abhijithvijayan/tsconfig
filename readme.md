@@ -4,12 +4,6 @@
   <a href="https://www.npmjs.com/package/@abhijithvijayan/tsconfig">
     <img src="https://img.shields.io/npm/v/@abhijithvijayan/tsconfig" alt="NPM" />
   </a>
-  <a href="https://travis-ci.com/abhijithvijayan/tsconfig">
-    <img src="https://travis-ci.com/abhijithvijayan/tsconfig.svg?branch=main" alt="Travis Build" />
-  </a>
-  <a href="https://david-dm.org/abhijithvijayan/tsconfig">
-    <img src="https://img.shields.io/david/abhijithvijayan/tsconfig.svg?colorB=orange" alt="DEPENDENCIES" />
-  </a>
   <a href="https://github.com/abhijithvijayan/tsconfig/blob/main/license">
     <img src="https://img.shields.io/github/license/abhijithvijayan/tsconfig.svg" alt="LICENSE" />
   </a>
