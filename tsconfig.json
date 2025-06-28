@@ -3,51 +3,53 @@
 		/* Visit https://aka.ms/tsconfig.json to read more about this file */
 
 		/* Basic Options */
-		"target": "ES2018", // ECMAScript target version: Node.js 10
-		"module": "commonjs", // Module code generation
-		"jsx": "react", // JSX code generation
-		"declaration": true, // Generates corresponding '.d.ts' file.
-		"noEmitOnError": true, // Do not emit outputs if any errors were reported.
-		"newLine": "lf", // Use the specified EOF sequence to be used when emitting files: lf -> unix
-		"removeComments": true, // Do not emit comments to output.
-		// "outDir": "dist", // Redirect output structure to the directory.
-		// "allowJs": true, // Allow JavaScript files to be compiled.
+		"target": "ES2022", // Sets the JavaScript language version for emitted JavaScript and includes compatible library declarations. Node.js 18 support.
+		"jsx": "react", // Specifies the JSX factory function to use when targeting React JSX emit.
+		"moduleDetection": "force", // Ensures that each file is treated as a module, regardless of its content.
+		"declaration": true, // Generates corresponding '.d.ts' files.
+		"noEmitOnError": true, // Prevents the compiler from creating output files if any errors are reported.
+		"newLine": "lf", // Enforces Unix-style line endings (LF) in the emitted files.
+		"removeComments": true, // Strips all comments from the TypeScript output.
 		"lib": [
-			"ES2020.Promise" // https://git.io/JTvvo
-		], // List of library files to be included in the compilation.
-		// "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts).
+			"ES2022" // Node.js 18
+		], // Specifies the set of built-in API declarations to include in compilation.
+		"skipLibCheck": true, // Skips type checking of all declaration files (*.d.ts), which can speed up compilation.
 
 		/* Strict Type-Checking Options */
-		"strict": true, // Enable all strict type-checking options.
-		"noImplicitAny": true, // Raise error on expressions and declarations with an implied 'any' type.
-		"strictNullChecks": true, // Enable strict null checks.
-		"strictFunctionTypes": true, // Enable strict checking of function types.
-		"strictBindCallApply": true, // Enable strict 'bind', 'call', and 'apply' methods on functions.
+		"strict": true, // Enables all strict type-checking options for robust code.
+		"noImplicitAny": true, // Raises an error on expressions and declarations with an implied 'any' type.
+		"strictNullChecks": true, // When true, 'null' and 'undefined' have their own distinct types.
+		"strictFunctionTypes": true, // Ensures that function parameters are checked more correctly.
+		"strictBindCallApply": true, // Enables stricter checking of the 'bind', 'call', and 'apply' methods on functions.
 		// https://stackoverflow.com/a/50241920/9387542
-		"strictPropertyInitialization": false, // Enable strict checking of property initialization in classes.
-		"noImplicitThis": true, // Raise error on 'this' expressions with an implied 'any' type.
-		"alwaysStrict": true, // Parse in strict mode and emit "use strict" for each source file.
+		"strictPropertyInitialization": false, // If true, requires that all class properties are either initialized in the constructor or have an initializer. Disabled for flexibility.
+		"noImplicitThis": true, // Raises an error on 'this' expressions with an implied 'any' type.
+		"alwaysStrict": true, // Ensures that "use strict" is emitted in every source file, enforcing stricter parsing and error handling in JavaScript.
 
 		/* Additional Checks */
-		"noUnusedLocals": true, // Report errors on unused locals.
-		"noUnusedParameters": true, // Report errors on unused parameters.
-		"noImplicitReturns": true, // Report error when not all code paths in function return a value.
-		"noFallthroughCasesInSwitch": true, // Report errors for fallthrough cases in switch statement.
+		"noUnusedLocals": true, // Reports errors on unused local variables.
+		"noUnusedParameters": true, // Reports errors on unused parameters in functions.
+		"noImplicitReturns": true, // Reports an error if not all code paths in a function return a value.
+		"noFallthroughCasesInSwitch": true, // Reports errors for fallthrough cases in a switch statement, preventing unintentional bugs.
+		"noUncheckedIndexedAccess": true, // Adds 'undefined' to the type of any indexed property access.
+		"noImplicitOverride": true, // Ensures explicit usage of 'override' keyword when a method overrides a method in its base class.
+		"useDefineForClassFields": true, // When true, class fields are defined with Object.defineProperty. When false, they are assigned.
 
 		/* Module Resolution Options */
-		"moduleResolution": "node", // Module resolution strategy
-		"allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export.
-		"resolveJsonModule": true, // Allow importing, extracting types from and generating .json files.
-		"esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports.
-		// "types": [], // Type declaration files to be included in compilation.
+		"module": "node16", // Specifies the module system for the final JavaScript output, aligning with modern Node.js capabilities.
+		"moduleResolution": "node16", // Determines how modules get resolved. 'node16' supports modern Node.js module resolution features.
+		"allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export, for better compatibility.
+		"resolveJsonModule": true, // Allows importing, extracting types from, and generating .json files.
+		"esModuleInterop": true, // Enables compatibility between CommonJS and ES Modules by creating namespace objects for all imports.
 
 		/* Experimental Options */
 		"experimentalDecorators": true, // Enables experimental support for ES7 decorators.
-		"emitDecoratorMetadata": true, // Enables experimental support for emitting type metadata for decorators.
+		"emitDecoratorMetadata": true, // Enables experimental support for emitting type metadata for decorators, often used with reflection libraries.
 
 		/* Advanced Options */
-		"forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
-		"stripInternal": false // Don't emit declarations for internal functions
+		"forceConsistentCasingInFileNames": true, // Disallows inconsistently-cased references to the same file.
+		"stripInternal": true, // Do not emit declarations for code that is annotated with @internal.
+		"noUncheckedSideEffectImports": true, // Ensures that import statements that are only for side effects are not elided from the output.
 	},
 	"exclude": [
 		"node_modules"
