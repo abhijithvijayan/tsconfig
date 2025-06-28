@@ -39,7 +39,8 @@
 		"module": "node16", // Specifies the module system for the final JavaScript output, aligning with modern Node.js capabilities.
 		"moduleResolution": "node16", // Determines how modules get resolved. 'node16' supports modern Node.js module resolution features.
 		"allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export, for better compatibility.
-		"resolveJsonModule": true, // Allows importing, extracting types from, and generating .json files.
+		// ESM doesn't yet support JSON modules.
+		"resolveJsonModule": false, // Allows importing, extracting types from, and generating .json files.
 		"esModuleInterop": true, // Enables compatibility between CommonJS and ES Modules by creating namespace objects for all imports.
 
 		/* Experimental Options */
