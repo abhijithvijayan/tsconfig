@@ -4,6 +4,7 @@
 	"description": "TypeScript configuration I use for my projects",
 	"license": "MIT",
 	"repository": "https://github.com/abhijithvijayan/tsconfig.git",
+	"funding": "https://github.com/sponsors/abhijithvijayan",
 	"author": {
 		"name": "abhijithvijayan",
 		"email": "email@abhijithvijayan.in",
@@ -12,7 +13,7 @@
 	"engines": {
 		"node": ">=18"
 	},
-	"main": "tsconfig.json",
+	"exports": "./tsconfig.json",
 	"files": [
 		"tsconfig.json"
 	],
